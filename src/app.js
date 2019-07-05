@@ -16,4 +16,4 @@ class App {
     this.server.use(routes);
   }
 }
-module.exports = new App().server;
+export default new App().server;
